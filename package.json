@@ -1,0 +1,29 @@
+{
+  "name": "datawarehouseplatform",
+  "version": "1.0.0",
+  "description": "Data Storage and Warehouse Platform for faster development of deep learning models ",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.4.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start":"nodemon ./app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maverick1910/datawarehouseplatform.git"
+  },
+  "author": "Akhil, Nitish, Shreya, Santosh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maverick1910/datawarehouseplatform/issues"
+  },
+  "homepage": "https://github.com/maverick1910/datawarehouseplatform#readme"
+}
